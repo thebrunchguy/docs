@@ -61,12 +61,7 @@
             "pages": [
  
                 "uploading-members/inviting-members-email",
-                "uploading-members/csv",
-                "uploading-members/auto-update-intros",
-                "uploading-members/auto-update-google-sheets",
-                "uploading-members/invite-link",
-                "uploading-members/circle",
-                "uploading-members/google-sheets"
+                "uploading-members/csv"
             ]
         },
         {
