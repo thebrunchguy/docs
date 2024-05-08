@@ -11,7 +11,9 @@
       "light": "#88AAFF",
       "dark": "#6B95FF"
     },
-
+    "integrations": { 
+      "intercom": "pbaz20d2"
+    },
     "topbarCtaButton": {
         "name": "Get Started",
         "url": "https://form.typeform.com/to/IiEfAR4o"
@@ -116,11 +118,6 @@
             "admin-faq/opt-in-round-invite"
           ]
       }
-
-        
-
-
-
     ],
 
     
