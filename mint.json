@@ -88,16 +88,6 @@
       ]
     },
     {
-      "group": "Setting Up Slack",
-      "pages": [
-        "setting-up-slack/creating-an-account",
-        "setting-up-slack/connect-introsai",
-        "setting-up-slack/invite-members",
-        "setting-up-slack/member-experience",
-        "setting-up-slack/exporting-data"
-      ]
-    },
-    {
       "group": "Member Experience",
       "pages": [
         "view-member-experience/view-members-perspective",
