@@ -53,12 +53,12 @@
       "pages": [
         "getting-started/dashboard",
         "getting-started/members",
-        "getting-started/Intro-Rounds",
+        "getting-started/intro-rounds",
         "getting-started/insights",
         "getting-started/reports",
         "getting-started/channels",
         "getting-started/customizations",
-        "getting-started/Club-Settings",
+        "getting-started/club-settings",
         "Slack",
         {
             "group": "Slack",
