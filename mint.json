@@ -52,28 +52,8 @@
         "getting-started/reports",
         "getting-started/channels",
         "getting-started/customizations",
-        "getting-started/club-settings"
-      ]
-    },
-    {
-      "group": "Uploading Members",
-      "pages": [
-        "uploading-members/inviting-members-email",
-        "uploading-members/csv"
-      ]
-    },
-    {
-      "group": "View the Member Experience",
-      "pages": [
-        "view-member-experience/view-members-perspective"
-      ]
-    },
-    {
-      "group": "Making Use of Insights",
-      "pages": [
-        "making-use-of-insights/engagement",
-        "making-use-of-insights/feedback",
-        "making-use-of-insights/dashboard"
+        "getting-started/club-settings",
+        "admin-faq/time-zone"
       ]
     },
     {
@@ -100,9 +80,9 @@
       ]
     },
     {
-      "group": "Admin FAQ",
+      "group": "Member Experience",
       "pages": [
-        "admin-faq/time-zone",
+        "view-member-experience/view-members-perspective",
         "admin-faq/opt-in-round-invite"
       ]
     }
