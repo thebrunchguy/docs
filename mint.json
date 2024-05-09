@@ -84,7 +84,7 @@
             "branding-best-practices/changing-join-link"
           ]
         },
-        "admin-faq/member-faq"
+        "admin-faq/admin-faq"
       ]
     },
     {
@@ -101,7 +101,7 @@
       "group": "Member Experience",
       "pages": [
         "view-member-experience/view-members-perspective",
-        "admin-faq/opt-in-round-invite"
+        "admin-faq/member-faq"
       ]
     }
   ],
