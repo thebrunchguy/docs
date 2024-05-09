@@ -42,9 +42,15 @@
   ],
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Intros AI 101",
       "pages": [
         "getting-started/introduction",
+        "getting-started/dashboard"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
         "getting-started/dashboard",
         "getting-started/members",
         "getting-started/intro-rounds",
@@ -53,6 +59,17 @@
         "getting-started/channels",
         "getting-started/customizations",
         "getting-started/club-settings",
+        "Slack",
+        {
+            "group": "Slack Group",
+            "pages": ["nested-reference-page",
+              "setting-up-slack/creating-an-account",
+              "setting-up-slack/connect-introsai",
+              "setting-up-slack/invite-members",
+                "setting-up-slack/member-experience",
+                "setting-up-slack/exporting-data"
+              ]
+        },
         "admin-faq/time-zone"
       ]
     },
