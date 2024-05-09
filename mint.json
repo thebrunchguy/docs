@@ -70,20 +70,21 @@
                 "setting-up-slack/exporting-data"
               ]
         },
+        "Branding",
+        {
+          "group": "Branding Best Practices",
+          "pages": [
+            "branding-best-practices/adding-team-members",
+            "branding-best-practices/changing-your-logo",
+            "branding-best-practices/customizing-button-color",
+            "branding-best-practices/change-matching-forms-background",
+            "branding-best-practices/displaying-name-on-emails",
+            "branding-best-practices/changing-email-signature",
+            "branding-best-practices/changing-clubs-name",
+            "branding-best-practices/changing-join-link"
+          ]
+        },
         "admin-faq/time-zone"
-      ]
-    },
-    {
-      "group": "Branding Best Practices",
-      "pages": [
-        "branding-best-practices/adding-team-members",
-        "branding-best-practices/changing-your-logo",
-        "branding-best-practices/customizing-button-color",
-        "branding-best-practices/change-matching-forms-background",
-        "branding-best-practices/displaying-name-on-emails",
-        "branding-best-practices/changing-email-signature",
-        "branding-best-practices/changing-clubs-name",
-        "branding-best-practices/changing-join-link"
       ]
     },
     {
