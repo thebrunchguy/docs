@@ -61,7 +61,7 @@
         "getting-started/club-settings",
         "Slack",
         {
-            "group": "Slack Group",
+            "group": "Slack",
             "pages": ["nested-reference-page",
               "setting-up-slack/creating-an-account",
               "setting-up-slack/connect-introsai",
