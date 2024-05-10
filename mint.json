@@ -65,9 +65,8 @@
             "group": "Slack",
             "pages": ["nested-reference-page",
               "setting-up-slack/connect-introsai",
-              "setting-up-slack/invite-members",
-                "setting-up-slack/member-experience",
-                "setting-up-slack/exporting-data"
+              "setting-up-slack/member-experience",
+              "setting-up-slack/exporting-data"
               ]
         },
         "Branding",
