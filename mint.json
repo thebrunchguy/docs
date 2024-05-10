@@ -51,6 +51,7 @@
     {
       "group": "Getting Started",
       "pages": [
+        "setting-up-slack/creating-an-account"
         "getting-started/dashboard",
         "getting-started/members",
         "getting-started/intro-rounds",
