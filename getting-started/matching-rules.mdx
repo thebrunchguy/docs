@@ -2,9 +2,9 @@
 title: Matching Rules
 ---
 
-## Match on Similarity: Members with similar answers get paired up.
-
-Imagine you have a group of members who have indicated their preferences for weekend activities:
+<Tabs>
+  <Tab title="Match on Similarity">
+    Imagine you have a group of members who have indicated their preferences for weekend activities:
 
    Member 1: Loves hiking, enjoys reading, interested in cooking
 
@@ -19,10 +19,9 @@ Member 1 might be matched with Member 2 because they both enjoy hiking and have 
 Member 2 could also be matched with Member 3 since they both love cooking and have an interest in another shared activity (hiking for Member 2 and photography for Member 3).
 
 This way, members are paired with others who have similar interests, making it more likely that they'll enjoy their time together and form meaningful connections.
-
-## Match with Sub-Groups: You can group members based on specific answers and decide if they should match within that group.
-
-Imagine you have a sub-group of members who are interested in a specific hobby:
+  </Tab>
+  <Tab title="Match with Sub-Groups">
+    Imagine you have a sub-group of members who are interested in a specific hobby:
 
    First Tag: Photography Enthusiasts
 
@@ -35,10 +34,9 @@ Imagine you have a sub-group of members who are interested in a specific hobby:
    Rule: Must Match
 
 In this scenario, the rule "Must Match" means that members within the "Photography Enthusiasts" sub-group will be matched with each other based on their level of experience or interest in photography. So, an amateur photographer might be paired with a photography student to share tips and learn from each other, while professional photographers can connect to discuss advanced techniques and industry insights. This ensures that members are matched with others who share their specific interest, fostering more meaningful and relevant connections.
-
-## Match across Sub-Groups: You can also match members from different groups based on their answers.
-
-Imagine you have two sub-groups of alumni based on their graduation years:
+  </Tab>
+  <Tab title="Match across Sub-Groups">
+    Imagine you have two sub-groups of alumni based on their graduation years:
 
    First Tag: Cohort 2010
 
@@ -59,71 +57,5 @@ Imagine you have two sub-groups of alumni based on their graduation years:
    Rule: Can Not Match
 
 In this case, the rule "Can Not Match" means that members from Cohort 2010 will not be matched with members from Cohort 2015 based on their graduation year. However, they could still be matched based on other criteria, such as their interest in networking or mentorship, or their location. This allows for cross-cohort connections while still respecting the boundaries of each graduation year.
-
-## Create Custom Rules
-
-Imagine you have a group of members with diverse interests and professional backgrounds:
-
-   First Tag: Industry
-
-      Answer Response 1: Tech
-
-      Answer Response 2: Healthcare
-
-      Answer Response 3: Education
-
-   Second Tag: Hobby
-
-      Answer Response 1: Photography
-
-      Answer Response 2: Cooking
-
-      Answer Response 3: Hiking
-
-   Custom Rule:
-
-You want to create a custom rule that matches members who are in the tech industry and have photography as a hobby:
-
-Rule: Must Match
-
-Members who select "Tech" under the Industry tag and "Photography" under the Hobby tag must be matched together.
-
-You can also create a rule that prevents members from the same industry from being matched if they have different hobbies:
-
- 
-
-Rule: Can Not Match
-
-Members who select the same response under the Industry tag but different responses under the Hobby tag cannot be matched together.
-
-Additionally, you might want to create a rule that gives preference to matches within the same industry if they share a common hobby:
-
- 
-
-Rule: Prefers
-
-Members who share the same response under both the Industry and Hobby tags are preferred matches.
-
-By creating these custom rules, you can tailor the matching process to ensure that members are paired based on specific criteria that are important to your group, leading to more meaningful and relevant connections.
-
- 
-
-## Handling Unmatchable Members: Decide what to do if some members don't match with anyone.
-
-Imagine you have a group of members with the following interests:
-
-   Member 1: Interested in art and music
-
-   Member 2: Interested in technology and gaming
-
-   Member 3: Interested in sports and fitness
-
-After applying all the matching rules, you find that Member 4, who is interested in gardening and cooking, doesn't fit any of the rules and has nothing in common with the other members, making them "unmatchable."
-
-Options for Handling Unmatchable Members:
-
-   Don't Match Them: In this scenario, you might decide not to force a match for Member 4. Instead, they could be placed on a waiting list until a more suitable match joins the group or until new interests are added that align with theirs.
-
-   Match Them Anyway: Alternatively, you could choose to match Member 4 with someone who has the least divergent interests, even if they don't have anything in common. For example, Member 1, who is interested in art, might be the closest match, as both art and gardening involve creativity and aesthetics.
-
-   By deciding how to handle unmatchable members, you can ensure that everyone has the best possible experience, even if perfect matches aren't always available.
+  </Tab>
+</Tabs>
