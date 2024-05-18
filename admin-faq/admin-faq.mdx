@@ -19,3 +19,32 @@ title: Admin FAQ
 <Accordion title="How do I integrate Google Calendar or Outlook Calendar?">
   By visiting your Member Profile, you can connect Google Calendar or Outlook Calendar to make choosing times for Intros even easier!
 </Accordion>
+<Accordion title="How do I integrate Zapier?">
+  Let's navigate to "Members", "Invite Members", and scroll down to Zapier.
+
+  First, we have to set up your Zap's trigger.
+
+  As an example, we can use Google Sheets and set up our zap to run every time that a record is added to our database (Google Sheet).
+
+  Select Google Sheets as the partner service that we want to use
+  Select New Spreadsheet Row as the event that we want to trigger this zap
+  Select your Google account or connect an account
+  Select the Spreadsheet and Worksheet that you want to connect (this is likely the same spreadsheet that you used in the previous section)
+
+  Now, let's test your trigger.
+
+  You should see all of the data from one of the records in your database.
+
+  Next, let's set up your Zap's action. Here, we will define how we insert the data from our database into Intros.
+
+  Select Intros AI as the partner service that we want to use
+  Select Create Member as the event that we want to trigger this zap
+  Select your Intros account or connect an account
+  Select the Intros club that you want to create the new member in and map all data from your database to the Intros data fields
+
+  Take special note of the Creation Mode field. Auto Enroll means that the member will automatically be added to your group (recommended).     Send Invite means that we will send the member a invite email for them to join your group.
+
+  Now, let's test your Zap. You should see success:true and the first name, last name, and email of the member that you added to your intros   club.
+
+  Publish your zap!
+</Accordion>
