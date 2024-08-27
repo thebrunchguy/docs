@@ -68,31 +68,95 @@ View our interactive demo below!
 />
 -----------------------------------------------------------
 
-Within the Members page, you can also invite new Members in a few different ways:
+When adding new Members to your community, the process can be broken down into three main steps: uploading existing member data, inviting those members, or using an onboarding form link if no data is available.
 <Steps>
-  <Step title="Uploading through a CSV">
+  <Step title="Uploading Member Data">
+  Before inviting Members, it’s important to upload any existing Member data (such as emails and names) via CSV if you have it. This ensures that the platform has all necessary information for your Members.
+  <Tabs>
+  <Tab title="Access the Invite Members Tab">
+  Navigate to the Invite Members tab and select the Import Participants From CSV File option.
+   </Tab>
+   <Tab title="Upload the CSV File">
+   Choose the CSV file from your computer that contains the Member data to upload it directly into the platform.
+   </Tab>
+   <Tab title="Map Data Types">
+   > **Standard Fields:** Map each CSV column to the corresponding Intros Profiles data type (e.g., first/last name, email, phone number, etc.).
+   
+   > **Custom Fields:** Create custom free-text fields during the mapping process if your CSV contains data that doesn’t fit the standard fields. This allows you to capture specialized information that’s important to your community.
+    </Tab>
+    <Tab title="Preview and Confirm">
+    Preview the profiles to ensure all the data is mapped and displayed correctly, including any custom fields.
+    </Tab>
+    <Tab title="Manage Uploaded Members">
+    > **Activate Without Invitation:** You can upload Members without sending an invitation. These Members will be added to the Pending tab, where you can manually activate them by approving them under the Actions section.
+    
+    > **Invite After Upload:** If you want to send out invitations after uploading, proceed to the next step.
+  </Tab>
+</Tabs>
   </Step>
- <Step title="Integrating with another Product (Slack, Discord, etc.)">
+ <Step title="Inviting Members via Email">
+ After uploading Member data, you can proceed with inviting Members to join your community via email.
+ <Tabs>
+  <Tab title="Access the Invite Members Tab">
+  Navigate to the Invite Members tab to start the invitation process.
+  </Tab>
+  <Tab title="Invite with Email">
+  Enter each Member's email address individually, pressing enter after each one, or select multiple emails at a time to send a direct invitation.
+  </Tab>
+   <Tab title="Choose an Invitation Method">
+   **Opt-in:**
+  > Members must click ‘Join the Community!’ in the invitation email to join. They will be directed to complete the Onboarding form.
+  
+  >The platform automatically recognizes and skips over any information you’ve already collected, ensuring that Members only provide new, unique details.
+
+**Opt-out:**
+  > Members are automatically added to the community and can access the Member Directory by clicking ‘Check out the Community!’ in the invitation email.
+
+  > Members can opt out at any time through their Member Profile, the Member Directory, or by clicking 'Leave the Community' in the email invitation.
+
+**Invite via Member Directory:**
+ > If you’ve already uploaded members, you can also invite them by selecting their names or selecting all within the Member Directory and inviting them directly.
+  </Tab>
+</Tabs>
   </Step>
  <Step title="Inviting Members through an Onboarding Link">
 
- You can customize your onboarding form to best fit your community! There are five different types of questions that you can create:
+If you prefer a simple and direct approach, and you don’t have any Member data, you can instead invite Members by sharing an onboarding link. This method allows Members to join the community by accessing the form directly, without needing to go through an email invitation process.
+<Tabs>
+  <Tab title="Customize the Onboarding Form">
+  Before sending out the link, you can customize the onboarding form to best fit your community’s needs.
+
+  There are five different types of questions you can create to gather the most relevant information from your Members:
 
    <Accordion title="Free Response">
-      This provides an open space for members to freely write their answers.
+      Allows Members to provide detailed answers in their own words.
     </Accordion>
     <Accordion title="Single Select">
-      This offers a single choice question format.
+     Offers a list of options where Members can choose only one response.
     </Accordion>
     <Accordion title="Multi Select">
-      This allows for a multiple choice question format.
+      Allows Members to select multiple options from a list.
     </Accordion>
     <Accordion title="Custom Scale">
-      A Likert scale with custom values. A great example is, "How many years of experience do you have?". Custom scale questions must have        5 values.
+      A Likert scale with custom values (e.g., "How many years of experience do you have?"). Custom scale questions must have 5 values.
     </Accordion>
     <Accordion title="Two Part Multi">
-      This give & take style question consists of two related questions that share a similar answer bank. For example, "Where could you use       support?" and "How can you support others?"
+      Give & take style questions consisting of two related questions that share a similar answer bank. For example, "Where could you use support?" and "How can you support others?"
     </Accordion>
+    </Tab>
+    <Tab title="Copy the Onboarding Form Link">
+  > Navigate to the Invite Members tab.
+
+  > Underneath the Invite with Email and Import Participants From CSV File options, you'll find the Onboarding Form Link.
+  
+  > Copy this link and share it with your Members via iMessage, WhatsApp, Slack, or any other platform.
+    </Tab>
+    <Tab title="Preview the Onboarding Form">
+  > Paste the link into a new browser tab to preview the Member's onboarding experience.
+  
+  > This preview allows you to understand the flow from a Member's perspective.
+      </Tab>
+</Tabs>
   </Step>
 </Steps>
 
