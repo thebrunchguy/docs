@@ -45,13 +45,13 @@
       "group": "Intros AI 101",
       "pages": [
         "getting-started/introduction",
-        "getting-started/use-cases"
+        "getting-started/use-cases",
+        "setting-up-slack/creating-an-account"
       ]
     },
     {
       "group": "Getting Started",
       "pages": [
-        "setting-up-slack/creating-an-account",
         "getting-started/dashboard",
         "getting-started/members",
         "getting-started/intro-rounds",
