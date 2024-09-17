@@ -54,6 +54,7 @@
       "pages": [
         "getting-started/dashboard",
         "getting-started/members",
+        "getting-started/directory",
         "getting-started/intro-rounds",
         "getting-started/matching-rules",
         "getting-started/insights",
