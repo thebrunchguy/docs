@@ -60,8 +60,6 @@
         "getting-started/insights",
         "getting-started/reports",
         "getting-started/channels",
-        "getting-started/customization",
-        "getting-started/club-settings",
         "Slack",
         {
             "group": "Slack",
@@ -69,8 +67,8 @@
               "setting-up-slack/connect-introsai",
               "setting-up-slack/member-experience",
               "setting-up-slack/exporting-data"
-              ]
-        },
+        "getting-started/customization",
+        "getting-started/club-settings",
         "Branding",
         {
           "group": "Branding",
