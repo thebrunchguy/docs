@@ -46,7 +46,7 @@
       "pages": [
         "getting-started/introduction",
         "getting-started/use-cases"
-         ]
+       ]
     },
     {
       "group": "Getting Started"
@@ -55,11 +55,13 @@
       ]
     },
     {
-      "group": "Getting Started",
+      "group": "Intros AI Platform",
       "pages": [
         "getting-started/dashboard",
+        "getting-started/member-profile",
         "getting-started/members",
         "getting-started/directory",
+        "getting-started/AI-search",
         "getting-started/intro-rounds",
         "getting-started/matching-rules",
         "getting-started/insights",
