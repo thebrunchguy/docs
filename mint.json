@@ -60,7 +60,6 @@
         "getting-started/insights",
         "getting-started/reports",
         "getting-started/channels",
-      ]
         {
             "group": "Slack",
             "pages": ["nested-reference-page",
