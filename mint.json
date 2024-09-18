@@ -45,7 +45,12 @@
       "group": "Intros AI 101",
       "pages": [
         "getting-started/introduction",
-        "getting-started/use-cases",
+        "getting-started/use-cases"
+         ]
+    },
+    {
+      "group": "Getting Started"
+      "pages": [
         "setting-up-slack/creating-an-account"
       ]
     },
