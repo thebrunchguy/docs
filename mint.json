@@ -60,14 +60,17 @@
         "getting-started/insights",
         "getting-started/reports",
         "getting-started/channels",
+      ]
         {
             "group": "Slack",
             "pages": ["nested-reference-page",
               "setting-up-slack/connect-introsai",
               "setting-up-slack/member-experience",
               "setting-up-slack/exporting-data"
+            ]
         "getting-started/customization",
         "getting-started/club-settings",
+  ]
         {
           "group": "Branding",
           "pages": [
