@@ -59,8 +59,7 @@
         "getting-started/intro-rounds",
         "getting-started/insights",
         "getting-started/reports",
-        "getting-started/channels",
-        "Slack",
+        "getting-started/channels"
         {
             "group": "Slack",
             "pages": ["nested-reference-page",
@@ -69,7 +68,6 @@
               "setting-up-slack/exporting-data"
         "getting-started/customization",
         "getting-started/club-settings",
-        "Branding",
         {
           "group": "Branding",
           "pages": [
