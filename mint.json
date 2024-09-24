@@ -63,12 +63,6 @@
         "getting-started/customization",
         "getting-started/club-settings"
       ]
-    },
-    {
-     "group": "Member Experience",
-     "pages": [
-        "view-member-experience/view-members-perspective"
-      ]
     }
   ],
   "footerSocials": {
