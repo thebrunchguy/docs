@@ -45,6 +45,7 @@
       "group": "Getting Started",
       "pages": [
         "getting-started/introduction",
+        "getting-started/trials",
         "getting-started/use-cases"
       ]
     },
