@@ -66,7 +66,7 @@ There are four main methods for adding new members to your community: uploading 
   <Step title="Uploading Member Data">
     Before inviting or activating your members, it’s important to upload any existing member data (such as emails and names) via CSV if you have it. This ensures that the platform has all necessary information on your members.
 
-    <Accordion title="Access the Add Members Tab">
+    <Accordion title="Access the Add Members Button">
       Navigate to the "Add Members" tab and select the "Import Participants From CSV File" option.
     </Accordion>
     <Accordion title="Upload the CSV File">
@@ -90,10 +90,10 @@ There are four main methods for adding new members to your community: uploading 
       </Tip>
     </Accordion>
   </Step>
-  <Step title="Adding Members via Email">
+  <Step title="Inviting Members via Email">
     If you don't have pre-existing data, you can alternatively invite members via email. 
 
-    <Accordion title="Access the Add Members Tab">
+    <Accordion title="Access the Add Members Button">
       Navigate to the "Add Members" tab to start the invitation process.
     </Accordion>
     <Accordion title="Invite with Email">
@@ -106,7 +106,7 @@ There are four main methods for adding new members to your community: uploading 
     </Accordion>
   </Step>
   <Step title="Adding Members through an Onboarding Link">
-    If you prefer a simple and direct approach, and you don’t have any member data, you can instead add members by sharing an onboarding link. This method allows members to join the community by accessing the form directly, without needing to go through an email invitation process.
+    If you prefer a simple and direct approach, and you don’t have any member data, you can instead add members by sharing an onboarding link. This method allows members to join the community by accessing the form directly, without needing to accept an email invitation.
 
     <Accordion title="Customize the Onboarding Form">
       Before sending out the link, you can customize the onboarding form to best fit your community’s needs, which you can do in the [Member Profile](https://docs.intros.ai/getting-started/member-profile) and [Customization](https://docs.intros.ai/getting-started/customization) tabs.
@@ -124,7 +124,7 @@ There are four main methods for adding new members to your community: uploading 
       </Tip>
     </Accordion>
     <Accordion title="Copy the Onboarding Form Link">
-      > Navigate to the "Add Members" tab.
+      > Navigate to the "Add Members" button.
 
       > Copy the Onboarding Form Link and share it with your members via iMessage, WhatsApp, Slack, or any other platform.
     </Accordion>
@@ -178,51 +178,52 @@ There are four main methods for adding new members to your community: uploading 
       > After confirming that your test is successful, you can activate the Zap.
 
       > From now on, any new member added to Circle will automatically be created in Intros AI without manual intervention.
+      >
+      > <Tip>
+      >   **Pro Tip:** Zapier doesn't natively support two way syncs—however, there is a workaround to apply filters to ensure that data isn't constantly bouncing back and forth between Intros AI and your CRM. Reach out to us if you need help\!
+      > </Tip>
     </Accordion>
   </Step>
 </Steps>
 
-![](/images/Members-Upload-New-Members.png)
+
+![](/Screenshot2025-05-22at1.29.45PM1.png)
 
 ---
 
 ## **Viewing Members**
 
-Additionally, you can toggle through different filters or use the search function to find specific members of your community. As shown below, you can sort members by **Active**, **Invited**, **Pending**, and **Inactive**.
+Additionally, you can toggle through different filters or use the search function to find specific members of your community. As shown below, you can sort members by **Active**, **Invited**, **Pending**, and **Deleted**.
 
-![](/images/Members-Filters1.png)
+![](/Screenshot2025-05-22at1.31.27PM1.png)
 
 ---
 
 <Tabs>
   <Tab title="Active Tab">
-    In the "Active" tab, you will see all members who have accepted an invite.
+    In the "Active" tab, you will see all members who have been activated or accepted an invitation to join your community.
   </Tab>
   <Tab title="Invited Tab">
-    In the "Invited" tab, you will see all of the members that have been invited (through email or CSV).
-
-    > Invites to **opt-in** would go to the Invited Tab.
-
-    > Invites to **opt-out** would go to the Active Tab.
+    In the "Invited" tab, you will see all of the members that have been invited to join your community.
 
     You may also manually activate members if you'd like to speed up the process.
 
     > In order to do that, you can select each member individually or select the "All" button and then click "Activate Selected".
   </Tab>
   <Tab title="Pending Tab">
-    In the "Pending" tab, you will see all of the members who have joined via an onboarding form (in the case that you have selected "I will manually approve them" seen in the General Settings) or been uploaded from a third party source (e.g. Zapier).
+    In the "Pending" tab, you will see all of your members who have been uploaded via CSV, joined via an onboarding form or added via Zapier (you can choose to auto-activate folks who are added via the onboarding form and/or Zapier in your Club Settings).
 
     Members may be in the "Pending" tab for two reasons:
 
-    > The member joined via the onboarding form and “I will manually approve them” was toggled on in the General Settings page.
+    > The member joined via the onboarding form or Zapier and “I will manually approve them” was toggled on in the Club Settings page.
 
-    > You uploaded the members yourself.
+    > You uploaded the members via CSV yourself.
 
     Things you can do in the "Pending" tab:
 
     > Activate a member (as previously discussed in the "Invited" tab section).
 
-    > Delete a member (then they will be marked as inactive).
+    > Delete a member (then they will be marked as deleted).
   </Tab>
   <Tab title="Inactive Tab">
     In the "Inactive" tab, you will see all of the members who are inactive.
